@@ -4,7 +4,7 @@
         "post0": {
             "title": "Week 0",
             "content": "Reading: Hans Henrick Hock, Elena Bashir (eds.) The Languages and Linguistics of South Asia: A Contemporary Guide. | File | . The discussion was broad and quite varied, given the nature of the reading. Future readings will probably not be the same; on the organisational side, for that reason, readings well happen every 2 weeks so that the intervening meetings are more open. . Some of the interesting discussion was on language contact and how that contributes to the difficulty of the tree model in describing South Asian language history. Areal features that have spread through contact that we discussed included retroflexion (note that even Great Andamanese1 and Burushaski have this, and Avestan’s /ʂ/). Also of interest were v &gt; b2 in Brahui, Kannada, and many Indo-Aryan languages, which seems to be more of a chance convergence. The fact that unrelated families seem to be affected by feature spread is a big challenge for historical linguistics, in making sense of shared innovations. . There does not seem to be much work on applying the wave model in South Asia at least, beyond some recent statistical attempts. In Indo-Aryan, this work is done by Chundra Cathcart and Taraka Rama. Nothing similar in Dravidian despite the existence of good resources like DEDR. Some interesting work has come out on admixture models etc. in recent years, such as Murawaki (2020) on Fijian.3 Note that the tree model has greater success in some regions than in others, and has been good for broad Indo-European reconstruction.4 . There was a short discussion in the comments about computational decipherment of “lost” languages which is really fascinating.5 This recent article prompted that discussion. . We also discussed the principles behind sound change: can they be modelled statistically? Some sound changes are more likely cross-lingually (thinking of big databases that try to document these changes), such as palatalisation, but that does not seem to be a firm basis to rule out rarer changes.2 What principles are behind sound change? We discussed phonetic dispersion, the possibility of diglossia’s influence, and mutual reinforcement of seemingly unstable features like breathy-voice in South Asia. We also listened to Sunil Menon’s demonstration of Malayalam’s three-way stop /t̪ t ʈ/ contrast, and two-way rhotic /ɾ r/. . Footnotes . Gopalakrishnan R &#8617; . | Suresh Kolichala &#8617; &#8617;2 . | https://www.aclweb.org/anthology/2020.emnlp-main.69.pdf &#8617; . | Vineeth Rajan &#8617; . | Jajwalya Karajgikar &#8617; . |",
-            "url": "https://aryamanarora.github.io/moli-mandala-test/reading/language%20contact/historical%20linguistics/wave%20model/2021/03/05/week-0.html",
+            "url": "https://aryamanarora.github.io/moli-mandala/reading/language%20contact/historical%20linguistics/wave%20model/2021/03/05/week-0.html",
             "relUrl": "/reading/language%20contact/historical%20linguistics/wave%20model/2021/03/05/week-0.html",
             "date": " • Mar 5, 2021"
         }
@@ -21,7 +21,7 @@
       ,"page2": {
           "title": "Members",
           "content": "Aaditya Kulkarni | Adam Farris | Agnel | Akshit Jha | Alexander Jabbari | Anaïs | Anirudh Kanisetti | Anmol Goel | Anusha Anand | Awais shah | Bharathan R D | Bhawani | Chandini White | Chandni Dutta | Dharmender | Dhruv Karande | Dwija Parikh | Ed J Pedraza-Robles | Farah Nazir | Gopalakrishnan R | Harveen Brar | Judy Lenaduwe | Karthik Malli | Kaushalya Perera | Kelvin Jackson | Luke Gessler | Maitrey Mehta | Mukund Choudhary | Mythili Menon | Nav M | Nayana | Nithyaa | Pranav Jayachand | Pranav Maneriker | Rahul Aralikatte | Roomy Naqvy | Ry Smith | Saad | Sameer ud Dowla Khan | Samopriya Basu | Sathvik Nair | Sayantani Banerjee | Shaandro Sarkar | Sharbatanu Chatterjee | Shashank Shenoy Basty | Shinjini Ghosh | Shreekanth Murthy | Srabasti Dey | Suhas Mahesh | Sunil Menon | Suresh Kolichala | Swair Shah | Talhah Mohammed | Travis Bartley | Uddyalok | Vineeth Rajan | Zeerak Waseem | .",
-          "url": "https://aryamanarora.github.io/moli-mandala-test/members/",
+          "url": "https://aryamanarora.github.io/moli-mandala/members/",
           "relUrl": "/members/",
           "date": ""
       }
@@ -51,7 +51,7 @@
       ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
-          "url": "https://aryamanarora.github.io/moli-mandala-test/robots.txt",
+          "url": "https://aryamanarora.github.io/moli-mandala/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }
