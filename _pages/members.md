@@ -4,8 +4,6 @@ title: Members
 permalink: /members/
 ---
 
-## Members
-
 * Aaditya Kulkarni
 * Adam Farris
 * Agnel 
@@ -41,7 +39,7 @@ permalink: /members/
 * Pranav Jayachand
 * Pranav Maneriker
 * Rahul Aralikatte
-* ROOMY NAQVY
+* Roomy Naqvy
 * Ry Smith
 * Saad
 * Sameer ud Dowla Khan
