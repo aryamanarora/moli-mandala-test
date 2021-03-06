@@ -361,10 +361,6 @@ details.description:not([open]) summary::after { content: attr(data-close); }
 
 .notebook-badge-image { border: 0 !important; }
 
-.footnotes { font-size: 12px !important; }
-
-.footnotes p, .footnotes li { font-size: 12px !important; }
-
 .social-media-list .svg-icon, .pagination .svg-icon { width: 25px !important; height: 23px !important; }
 
 .anchor-link { opacity: 0; padding-left: 0.375em; \-webkit-text-stroke: 1.75px white; \-webkit-transition: opacity 0.2s ease-in-out 0.1s; \-moz-transition: opacity 0.2s ease-in-out 0.1s; \-ms-transition: opacity 0.2s ease-in-out 0.1s; }
