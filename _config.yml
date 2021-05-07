@@ -1,122 +1,58 @@
-# Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+# things you probably want to change
+#
+#
 
+# no trailing slash
+url: https://aryamanarora.github.io/moli-mandala
+
+# for header and meta tags
 title: Moḻi-maṇḍala
-description: A South Asian linguistics reading group.
-github_username: aryamanarora
-# you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "moli-mandala"
+description: South Asian linguistics reading group
 
-# OPTIONAL: override baseurl and url if using a custom domain
-# Note: leave out the trailing / from this value. 
-url: "https://aryamanarora.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# set external to true if linking outside your website
+# for internal, make sure to include preceding slash
+nav-links:
+  - name: Home
+    url: /
+    external: false
+  - name: Members
+    url: /members
+    external: false
 
-###########################################################
-#########  Special Instructions for baseurl ###############
+# for the homepage image + big text next to it
+greeting_image: /assets/me2.jpg
+# 100-200 characters recommended
+greeting_text: 
+
+# show blog post excerpts on blog page
+show_excerpts: false
+excerpt_word_count: 20
+
+# long date: April 20, 1969
+long_date: true
+# short date: Apr ‘69
+short_date: false
+
 #
-#### Scenario One: If you do not have a Custom Domain #####
-#    -  if you are not using a custom domain, the baseurl *must* be set to your repo name
-# 
-####  Scenario Two: If you have a Custom Domain #####
-# 1. If your domain does NOT have a subpath, this leave this value as ""
-# 2. If your domain does have a subpath, you must preceed the value with a / and NOT have a / at the end.  
-#      For example: 
-#           "" is valid
-#           "/blog"        is valid
-#            "/blog/site/" is invalid  ( / at the end)
-#            "/blog/site"  is valid
-#            "blog/site"   is invalid  ( because doesn't begin with a /)
 #
-# 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
+# things you probably don't want to change
 #
-baseurl: "/moli-mandala" # the subpath of your site, e.g. "/blog".
-
-# Github and twitter are optional:
-minima:
-  social_links:
-    twitter: aryaman2020
-    github: aryamanarora
-
-# Set this to true to get LaTeX math equation support
-use_math: 
-
-# Set this to true to display the summary of your blog post under your title on the Home page.
-show_description: true
-
-# Set this to true to display image previews on home page, if they exist
-show_image: false
-
-# Set this to true to turn on annotations with hypothes.is (https://web.hypothes.is/)
-annotations: false
-
-# Set this to true to display tags on each post
-show_tags: true
-
-# Add your Google Analytics ID here if you have one and want to use it
-google_analytics: 
-
-exclude:
-  - docker-compose.yml
-  - action.yml
-  - Makefile
-
-# this setting allows you to keep pages organized in the _pages folder
-include:
-  - _pages
-
-# This specifies what badges are turned on by default for notebook posts.
-default_badges:
-  github: true
-  binder: true
-  colab: true
-
-# Escape HTML in post descriptions
-html_escape:
-  description: false
-
-# Everything below here should be left alone. Modifications may break fastpages
-future: true
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
-
-# See https://jekyllrb.com/docs/pagination/
-# For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
-paginate: 15
-paginate_path: /page:num/
-
-remote_theme: jekyll/minima
-
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
-
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
-
-# to limit size of xml as it can grow quite large.
-feed:
-  posts_limit: 5 #default posts_limit: 10
-  excerpt_only: true
+#
+defaults:
+  - # applies the default layout to all files in the project
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  - # sets is_post=true for all blog posts
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+      permalink: /notes/:title
+permalink: /:title # so we have /about instead of /about.html, and /blog-post instead of /2019-11-22-blog-post.html
+sass:
+  style: compressed # compress the CSS file generated from the SCSS styles file
