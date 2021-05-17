@@ -9,6 +9,7 @@
       {% include post-date.html %}
     </span>
   </div>
-  {% if site.show_excerpts == true %} {{ post.description | strip_html }} <a href="{{ post.url }}">[Read more]</a> {% endif
+  {% if site.show_excerpts == true %} {{ post.content | strip_html |
+  truncatewords: site.excerpt_word_count }} [Read more]({{ post.url }}) {% endif
   %}
 </li>
