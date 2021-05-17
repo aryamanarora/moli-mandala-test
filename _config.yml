@@ -5,7 +5,7 @@
 #
 
 # no trailing slash
-url: https://aryamanarora.github.io/moli-mandala
+baseurl: /moli-mandala
 
 # for header and meta tags
 title: Moḻi-maṇḍala
@@ -52,6 +52,6 @@ defaults:
       type: posts
     values:
       is_post: true
-permalink: moli-mandala/:title # so we have /about instead of /about.html, and /blog-post instead of /2019-11-22-blog-post.html
+permalink: /:title # so we have /about instead of /about.html, and /blog-post instead of /2019-11-22-blog-post.html
 sass:
   style: compressed # compress the CSS file generated from the SCSS styles file

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-		<link rel="stylesheet" href="{{ '/styles/styles.css' | prepend:site.url }}">
+		<link rel="stylesheet" href="{{ '/styles/styles.css' | relative_url }}">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52207113-1"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
@@ -30,7 +30,7 @@
                             <a class="tag" href="{{ link.url }}">
                             {% endif %}
                             {% if link.external != true %}
-                            <a class="tag {% if page.url == link.url %}current{% endif %}" href="{{ link.url | prepend:site.url }}">
+                            <a class="tag {% if page.url == link.url %}current{% endif %}" href="{{ link.url | relative_url }}">
                             {% endif %}
                                 {{ link.name }}
                             </a>
