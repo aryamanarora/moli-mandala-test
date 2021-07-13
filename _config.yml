@@ -27,7 +27,7 @@ greeting_image: /assets/me2.jpg
 greeting_text: 
 
 # show blog post excerpts on blog page
-show_excerpts: true
+show_excerpts: false
 excerpt_word_count: 20
 
 # long date: April 20, 1969

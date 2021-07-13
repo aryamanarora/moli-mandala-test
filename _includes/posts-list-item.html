@@ -10,6 +10,6 @@
     </span>
   </div>
   {% if site.show_excerpts == true %} {{ post.content | strip_html |
-  truncatewords: site.excerpt_word_count }} [Read more]({{ post.url }}) {% endif
+  truncatewords: site.excerpt_word_count }} <a href="{{ post.url }}">[Read more]</a>
   %}
 </li>
