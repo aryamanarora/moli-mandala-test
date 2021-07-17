@@ -6,5 +6,7 @@
 # Posts
 
 {% for post in site.posts %}
+{% if post.description %}
 {% include posts-list-item.html %}
+{% endif %}
 {% endfor %}
