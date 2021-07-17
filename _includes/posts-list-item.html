@@ -6,10 +6,8 @@
       </a>
     </h3>
     <span class="timestamp timestamp-inline">
-      {% include post-date.html %} • By {{ post.author }}
-    </span>
+      {% include post-date.html %} • By 
+    </span> <span style="color: black;">{{ post.author }}</span>
   </div>
-  {% if site.show_excerpts == true %} {{ post.content | strip_html |
-  truncatewords: site.excerpt_word_count }} [Read more]({{ post.url }}) {% endif
-  %}
+  <span class="timestamp">{{ post.description }}</span>
 </li>
